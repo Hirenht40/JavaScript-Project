@@ -1,0 +1,49 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+  #title{
+    color: #E21717;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    
+}  
+
+#box{
+    border: 2px solid ;
+    padding: 2%;
+    border-radius: 20px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(2, 64, 248, 0.25)0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.fa-regular{
+    height: 30px;
+    width: 50px;
+    color: #E21717;
+    font-size: 50px;
+    margin: 40px;
+}
+
+.fa-regular:hover{
+color: blueviolet;
+
+}
